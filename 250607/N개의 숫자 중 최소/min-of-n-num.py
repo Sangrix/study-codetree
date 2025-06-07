@@ -3,7 +3,7 @@ arr = list(map(int, input().split()))
 
 # Please write your code here.
 min_val=arr[0]
-count = 0
+count = -1
 
 for elem in arr:
     if(min_val==elem):
