@@ -10,5 +10,6 @@ for elem in arr:
         count += 1
     elif(min_val>elem):
         min_val = elem
+        count = 0
     
 print(min_val, count)
