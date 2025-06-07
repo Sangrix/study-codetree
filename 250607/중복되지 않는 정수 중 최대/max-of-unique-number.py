@@ -2,7 +2,7 @@ n = int(input())
 data = list(map(int, input().split()))
 
 # Please write your code here.
-max_val = 0
+max_val = -1
 
 for val in data:
     if(max_val<val):
