@@ -3,6 +3,8 @@ for _ in range(3):
     arr = list(map(int,input().split()))
     arr_first.append(arr)
 
+_ = input()
+
 arr_second = []
 for _ in range(3):
     arr = list(map(int,input().split()))
